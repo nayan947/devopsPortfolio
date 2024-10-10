@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "id": "R_kgDOJWL0-g",
+      "name": "CI/CD Pipeline Automation",
+      "createdAt": "2023-04-13T04:18:19Z",
+      "url": "https://github.com/username/cicd-pipeline-automation",
+      "description": "Automated CI/CD pipelines using Azure DevOps and GitHub Actions to streamline deployment processes and improve development efficiency.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "YAML",
+          "iconifyClass": "logos-yaml"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Bash",
+          "iconifyClass": "logos-bash"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG_vYHA",
+      "name": "Infrastructure as Code with Terraform",
+      "createdAt": "2022-03-13T20:41:33Z",
+      "url": "https://github.com/username/terraform-infrastructure",
+      "description": "Used Terraform to automate the provisioning of cloud infrastructure on AWS, ensuring consistency and reducing manual errors.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HCL",
+          "iconifyClass": "simple-icons:hcl"
+        },
+        {
+          "name": "Bash",
+          "iconifyClass": "logos-bash"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Dockerized Microservices",
+      "createdAt": "2020-03-06T16:26:54Z",
+      "url": "https://github.com/username/docker-microservices",
+      "description": "Developed and deployed a microservices architecture using Docker, improving scalability and maintainability of applications.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Dockerfile",
+          "iconifyClass": "simple-icons:docker"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos-nodejs"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG0_8uQ",
+      "name": "Kubernetes Cluster Management",
+      "createdAt": "2022-02-11T14:50:20Z",
+      "url": "https://github.com/username/kubernetes-cluster-management",
+      "description": "Managed Kubernetes clusters for application deployment, ensuring high availability and efficient resource utilization.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "YAML",
+          "iconifyClass": "logos-yaml"
+        },
+        {
+          "name": "Bash",
+          "iconifyClass": "logos-bash"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOGcPKSQ",
+      "name": "Monitoring and Logging with ELK Stack",
+      "createdAt": "2021-11-26T17:56:07Z",
+      "url": "https://github.com/username/elk-stack-monitoring",
+      "description": "Implemented monitoring solutions using the ELK Stack (Elasticsearch, Logstash, and Kibana) to track application performance and logs.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "JSON",
+          "iconifyClass": "logos-json"
+        },
+        {
+          "name": "Bash",
+          "iconifyClass": "logos-bash"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
+      "name": "Automated Security Testing",
+      "createdAt": "2021-01-01T08:31:51Z",
+      "url": "https://github.com/username/security-testing",
+      "description": "Created automated security testing scripts using tools like Snyk and Checkmarx to ensure secure code practices in CI/CD pipelines.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Bash",
+          "iconifyClass": "logos-bash"
+        }
+      ]
+    }
+  ]
+}
