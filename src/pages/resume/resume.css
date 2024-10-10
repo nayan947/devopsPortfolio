@@ -1,0 +1,43 @@
+.resume-container {
+  padding: 20px;
+}
+
+.resume-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.download-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 250px;
+}
+
+.download-button span {
+  margin-left: 8px;
+}
+
+.resume-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.resume-document {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divider {
+  width: 67%;
+  margin: 20px 0;
+}

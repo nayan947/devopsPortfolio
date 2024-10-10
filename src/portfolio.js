@@ -36,12 +36,12 @@ const socialMediaLinks = [
   // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
   // gmail: "ashutoshhathidara98@gmail.com",
 
-  {
-    name: "Github",
-    link: "https://github.com/nayan947",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
-  },
+  // {
+  //   name: "Github",
+  //   link: "https://github.com/nayan947",
+  //   fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+  //   backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+  // },
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/nayan-m-/",
@@ -54,7 +54,6 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-
 ];
 
 const skills = {
@@ -226,7 +225,6 @@ const skills = {
   ],
 };
 
-
 // Education Page
 const competitiveSites = {
   competitiveSites: [
@@ -290,7 +288,6 @@ const degrees = {
   ],
 };
 
-
 const certifications = {
   certifications: [
     {
@@ -317,46 +314,46 @@ const certifications = {
       alt_name: "Linux Foundation",
       color_code: "#333333",
     },
-    {
-      title: "AWS Certified Solutions Architect",
-      subtitle: "- Amazon Web Services",
-      logo_path: "aws_logo.png",
-      certificate_link: "#",
-      alt_name: "AWS",
-      color_code: "#FF9900",
-    },
-    {
-      title: "Certified Kubernetes Administrator",
-      subtitle: "- CNCF",
-      logo_path: "kubernetes_logo.png",
-      certificate_link: "#",
-      alt_name: "CNCF",
-      color_code: "#326CE5",
-    },
-    {
-      title: "Terraform Associate",
-      subtitle: "- HashiCorp",
-      logo_path: "terraform_logo.png",
-      certificate_link: "#",
-      alt_name: "HashiCorp",
-      color_code: "#5C4EE5",
-    },
-    {
-      title: "Docker Certified Associate",
-      subtitle: "- Docker",
-      logo_path: "docker_logo.png",
-      certificate_link: "#",
-      alt_name: "Docker",
-      color_code: "#1488C6",
-    },
-    {
-      title: "Google Cloud Professional DevOps Engineer",
-      subtitle: "- Google",
-      logo_path: "gcp_logo.png",
-      certificate_link: "#",
-      alt_name: "Google Cloud",
-      color_code: "#4285F4",
-    },
+    // {
+    //   title: "AWS Certified Solutions Architect",
+    //   subtitle: "- Amazon Web Services",
+    //   logo_path: "aws_logo.png",
+    //   certificate_link: "#",
+    //   alt_name: "AWS",
+    //   color_code: "#FF9900",
+    // },
+    // {
+    //   title: "Certified Kubernetes Administrator",
+    //   subtitle: "- CNCF",
+    //   logo_path: "kubernetes_logo.png",
+    //   certificate_link: "#",
+    //   alt_name: "CNCF",
+    //   color_code: "#326CE5",
+    // },
+    // {
+    //   title: "Terraform Associate",
+    //   subtitle: "- HashiCorp",
+    //   logo_path: "terraform_logo.png",
+    //   certificate_link: "#",
+    //   alt_name: "HashiCorp",
+    //   color_code: "#5C4EE5",
+    // },
+    // {
+    //   title: "Docker Certified Associate",
+    //   subtitle: "- Docker",
+    //   logo_path: "docker_logo.png",
+    //   certificate_link: "#",
+    //   alt_name: "Docker",
+    //   color_code: "#1488C6",
+    // },
+    // {
+    //   title: "Google Cloud Professional DevOps Engineer",
+    //   subtitle: "- Google",
+    //   logo_path: "gcp_logo.png",
+    //   certificate_link: "#",
+    //   alt_name: "Google Cloud",
+    //   color_code: "#4285F4",
+    // },
   ],
 };
 
@@ -447,13 +444,17 @@ const experience = {
   ],
 };
 
-
 // Projects Page
 const projectsHeader = {
   title: "Projects",
   description:
     "In my projects, I utilize a diverse range of cutting-edge DevOps tools and cloud platforms. I specialize in streamlining CI/CD pipelines, implementing infrastructure as code, and deploying scalable applications on cloud services such as AWS and Azure, with a focus on container orchestration using Docker and Kubernetes.",
   avatar_image_path: "projects_image.svg",
+};
+
+// Resume Page
+const resumeHeader = {
+  title: "Resume",
 };
 
 // Contact Page
@@ -493,4 +494,5 @@ export {
   experience,
   projectsHeader,
   contactPageData,
+  resumeHeader,
 };

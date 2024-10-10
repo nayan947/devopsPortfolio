@@ -5,36 +5,18 @@ import { Fade } from "react-reveal";
 class ExperienceCard extends Component {
   render() {
     const experience = this.props.experience;
-    const descriptions = experience["descriptions"]
+    const descriptions = experience["descriptions"];
     const index = this.props.index;
     const theme = this.props.theme;
     return (
       <div
         className="experience-list-item"
-        style={{ marginTop: index === 0 ? 30 : 50, width: "70%", margin: "auto" }}
+        style={{
+          marginTop: index === 0 ? 30 : 50,
+          width: "70%",
+          margin: "auto",
+        }}
       >
-        {/* <div className="experience-card-stepper">
-          <div
-            style={{
-              width: 20,
-              height: 20,
-              backgroundColor: `${theme.headerColor}`,
-              borderRadius: 50,
-              zIndex: 100,
-            }}
-          />
-          {index !== totalCards - 1 && (
-            <div
-              style={{
-                height: 190,
-                width: 2,
-                backgroundColor: `${theme.headerColor}`,
-                position: "absolute",
-                marginTop: 20,
-              }}
-            />
-          )}
-        </div> */}
         <Fade left duration={2000} distance="40px">
           <div>
             <img
@@ -47,13 +29,7 @@ class ExperienceCard extends Component {
 
         <Fade right duration={2000} distance="40px">
           <div style={{ display: "flex", flexDirection: "row", width: "90%" }}>
-            {/* <div
-              className="arrow-left"
-              style={{ borderRight: `10px solid ${theme.body}` }}
-            ></div> */}
-            <div
-              className="experience-card"
-            >
+            <div className="experience-card">
               <div
                 style={{
                   display: "flex",
@@ -62,16 +38,23 @@ class ExperienceCard extends Component {
                   padding: "0px 20px",
                 }}
               >
-                <div style={{ display: "flex", flexDirection: "column",gap:"10px",paddingTop:"10px" }}>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: "10px",
+                    paddingTop: "10px",
+                  }}
+                >
                   <h3
                     className="experience-card-title"
-                    style={{ color: theme.text }}
+                    style={{ color: theme.imageHighlight, fontWeight: 900 }}
                   >
                     {experience["title"]}
                   </h3>
                   <p
                     className="experience-card-company"
-                    style={{ color: theme.text }}
+                    style={{ color: theme.text, fontWeight: "bold" }}
                   >
                     <a
                       href={experience["company_url"]}
@@ -83,7 +66,7 @@ class ExperienceCard extends Component {
                   </p>
                 </div>
                 <div>
-                  <div className="experience-card-heading-right" >
+                  <div className="experience-card-heading-right">
                     <p
                       className="experience-card-duration"
                       style={{ color: theme.secondaryText }}
@@ -111,17 +94,22 @@ class ExperienceCard extends Component {
                   borderBottomLeftRadius: "10px",
                   borderBottomRightRadius: "10px",
                   paddingBottom: "10px",
+                  backgroundColor: "white",
+                  paddingLeft: "10px",
                 }}
               >
                 <div className="repo-description" />
-                {descriptions && descriptions.map((description) => {
-                  return (
-                    <p style={{ color: theme.text, margin: "5px 0" }} key={description}>
-                      {description}
-                    </p>
-                  );
-                })}
-
+                {descriptions &&
+                  descriptions.map((description) => {
+                    return (
+                      <p
+                        style={{ color: theme.text, margin: "5px 0" }}
+                        key={description}
+                      >
+                        {description}
+                      </p>
+                    );
+                  })}
               </div>
             </div>
           </div>

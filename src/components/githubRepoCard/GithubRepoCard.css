@@ -4,7 +4,13 @@
   padding: 2rem;
   cursor: pointer;
   flex: 1 1 25%;
+  position: relative;
+
+  > .react-reveal {
+    height: 90%;
+  }
 }
+
 .repo-card-div:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 }
@@ -40,12 +46,13 @@
 
 .repo-name-div {
   display: flex;
-  align-items: center;
+  align-items: start;
 }
 
 .repo-svg {
   margin-right: 0.5rem;
   min-width: 16px;
+  margin-top: 0.3rem;
 }
 
 .repo-name {
@@ -59,6 +66,7 @@
   overflow: hidden;
   line-height: 1.2;
   margin: 0px;
+  min-height: 3rem;
 }
 
 .repo-star-svg {
@@ -77,7 +85,9 @@
 
 .repo-details {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .repo-creation-date {
@@ -86,6 +96,11 @@
   font-weight: 400;
   margin-left: 0px;
   margin-right: auto;
+  font-size: 12px;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  margin-top: auto;
 }
 
 .repo-languages {
@@ -112,11 +127,7 @@
     font-size: 14px;
   }
 
-  .repo-details {
-    flex-direction: column;
-  }
-
   .repo-creation-date {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
