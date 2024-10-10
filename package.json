@@ -2,7 +2,7 @@
   "private": true,
   "name": "devopsPortfolio",
   "version": "0.1.0",
-  "homepage": "https://mayan947.github.io/devopsPortfolio",
+  "homepage": "https://nayan947.github.io/devopsPortfolio",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
